@@ -1,3 +1,15 @@
+@media (max-width: 991px) {
+   .carousel {
+
+      &__image {
+         img {
+            width: 100%;
+         }
+      }
+   }
+   
+}
+
 @media (max-width: 767px) {
    .header {
 
