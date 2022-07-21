@@ -164,4 +164,13 @@
 
       }
    }
+
+   .modal {
+
+      &__close {
+
+         top: 5px;
+         right: 43px;
+      }
+   }
 }
