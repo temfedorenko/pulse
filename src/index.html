@@ -14,11 +14,12 @@
    <!----slick-slider carousel-->
    <!-- tiny-slider -->
    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -->
+   <link rel="stylesheet" href="css/animate.min.css">
    <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-   <section class="promo">
+   <section id="up" class="promo">
       <div class="container">
          <header class="header">
             <a href="#" class="header__logo">
@@ -79,7 +80,7 @@
                   так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
             </div>
             <div class="benefits__item">
-               <img src="icons/heart.png" alt="heart" class="benefits__img"></img>
+               <img src="icons/heart.png" alt="heart" class="benefits__img benefits__img_animated"></img>
                <h3 class="benefits__subheader">Заботимся о здоровье</h3>
                <p class="benefits__descr">Мы работаем для того,
                   чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -497,7 +498,8 @@
       <div class="container">
          <h2 class="title">отзывы клиентов</h2>
          <div class="reviews__wrapper">
-            <div class="reviews__item">
+            <div class="reviews__item animate__fadeInUp animate__animated wow" data-wow-duration="2s"
+               data-wow-delay=".9s">
                <img src="icons/feedback/photo_1.png" alt="review_photo" class="reviews__image">
                <div class="reviews__content">
                   <h3 class="reviews__header">Ирина Иванченко</h3>
@@ -511,7 +513,8 @@
                   </div>
                </div>
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item animate__fadeInUp animate__animated wow" data-wow-duration="2s"
+               data-wow-delay=".9s">
                <img src="icons/feedback/photo_2.png" alt="review_photo" class="reviews__image">
                <div class="reviews__content">
                   <h3 class="reviews__header">Иван Сёмочкин</h3>
@@ -525,7 +528,8 @@
                   </div>
                </div>
             </div>
-            <div class="reviews__item">
+            <div class="reviews__item animate__fadeInUp animate__animated wow" data-wow-duration="2s"
+               data-wow-delay=".9s">
                <img src="icons/feedback/photo_3.png" alt="review_photo" class="reviews__image">
                <div class="reviews__content">
                   <h3 class="reviews__header">Юлия Дашкина</h3>
@@ -604,6 +608,10 @@
       </div>
    </div>
 
+   <a href="#up" class="pageup">
+      <img src="icons/up.svg" alt="UP">
+   </a>
+
    <!--slick-slider carousel -->
    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -612,6 +620,7 @@
    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script> -->
    <script src="js/jquery.validate.min.js"></script>
    <script src="js/jquery.maskedinput.min.js"></script>
+   <script src="js/wow.min.js"></script>
    <script src="js/script.js"></script>
 </body>
 
